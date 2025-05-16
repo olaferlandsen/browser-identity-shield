@@ -41,13 +41,13 @@ Spoofs device labels in `navigator.mediaDevices.enumerateDevices` to hide virtua
 ### Install Dependencies
 
 ```bash
-npm install puppeteer-extra puppeteer-extra-plugin-stealth
+npm install
 ```
 
 ### Run the Script
 
 ```bash
-node stealth-chrome.js
+npm start
 ```
 
 > Make sure to update the path to the Chrome binary in the script if you're using macOS or Windows.
