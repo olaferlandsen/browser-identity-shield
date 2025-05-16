@@ -1,0 +1,24 @@
+{
+  "name": "browser-identity-shield",
+  "version": "1.0.0",
+  "main": "src/stealth-chrome.js",
+  "scripts": {
+    "start": "node src/stealth-chrome.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olaferlandsen/browser-identity-shield.git"
+  },
+  "author": "Jorge Olaf Erlandsen Córdova",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/olaferlandsen/browser-identity-shield/issues"
+  },
+  "homepage": "https://github.com/olaferlandsen/browser-identity-shield#readme",
+  "description": "A privacy-focused automation tool that leverages Puppeteer and Chrome to simulate natural browsing behavior and evade modern detection mechanisms in virtual environments.",
+  "dependencies": {
+    "puppeteer-core": "^24.8.2",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
